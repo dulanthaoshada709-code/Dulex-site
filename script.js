@@ -39,21 +39,18 @@ try {
 }
 
 // ==================== INITIALIZATION ====================
+// ==================== INITIALIZATION ====================
 document.addEventListener('DOMContentLoaded', () => {
-    // 1. Hide Loader after 2.5 seconds
-    setTimeout(() => {
-        const loader = document.getElementById('splashLoader');
-        if(loader) loader.classList.add('hidden');
-    }, 2500);
-
-    // 2. Initialize UI components
+    // Loader එක අයින් කර ඇති නිසා කෙලින්ම components initialize කරනවා
     createParticles();
     initializeBackground();
     initNavigation();
     initWallpaperControls();
     addDynamicProjects();
     addDownloaderButtons();
-});
+
+    // සයිට් එක load වූ සැනින් login screen එක පෙන්වීමට:
+    document.getElementById('loginScreen').classList.add('active');
 
 // ==================== DATABASE FUNCTIONS ====================
 async function saveSettingsToDB() {
