@@ -1,7 +1,7 @@
 // ==================== SUPABASE CONFIGURATION ====================
 // IMPORTANT: Vercel deploy කරද්දි Environment Variables set කරන්න
-const SUPABASE_URL = 'https://your-project.supabase.co'; // ඔබේ URL එක
-const SUPABASE_ANON_KEY = 'your-anon-key-here'; // ඔබේ Key එක
+const SUPABASE_URL = 'https://njlujisswavzhlgsawts.supabase.co'; // ඔබේ URL එක
+const SUPABASE_ANON_KEY = 'sb_publishable_S_mKzdUs143YVGjd8mN-7A_8ynQftEb'; // ඔබේ Key එක
 
 let supabase;
 
