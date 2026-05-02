@@ -1,0 +1,11 @@
+{
+  "name": "creativehub",
+  "version": "1.0.0",
+  "description": "CreativeHub - Premium Video Downloader",
+  "scripts": {
+    "build": "echo 'No build needed'"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0"
+  }
+}
